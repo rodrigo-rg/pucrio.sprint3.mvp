@@ -7,9 +7,8 @@ O projeto foi desenvolvido utilizando **Python** (backend com Flask) e **HTML/CS
 ## Funcionalidades
 
 - **Consultar imóveis** - Listar e buscar casas cadastradas no banco
-- **Adicionar imóvel** - Registrar novo imóvel com predição automática de preço
+- **Adicionar imóvel** - Registrar novo imóvel com predição automática de faixa de preço usando Machine Learning
 - **Excluir imóvel** - Remover casas do banco de dados
-- **Predição de preço do imóvel** - Modelo Machine Learning fornece faixa de preço estimadar.
 
 ## Como executar 
 
@@ -70,7 +69,6 @@ Consulte a documentação Swagger para detalhes completos dos parâmetros e resp
 ### Pastas e arquivos
 
 **Backend (api/):**
-- `database/` - Banco de dados SQLite
 - `MachineLearning/` - Módulos e utilitários de Machine Learning
 - `model/` - Modelos de Machine Learning, pipeline e processamento de dados
 - `schemas/` - Esquemas de validação de dados e serialização
